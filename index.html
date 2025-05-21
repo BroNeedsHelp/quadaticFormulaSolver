@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exile&family=Flow+Circular&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Orbitron:wght@400..900&family=Tilt+Neon&display=swap" rel="stylesheet">
+</head>
+<body>
+<script src="script.js"></script>
+
+  <header>  
+    <h1>
+        Solving Quadratic Equations
+    </h1>
+  </header>
+  <br><br>
+  <form>
+
+      <div class="text">
+        <p>
+          Enter the values of a, b, and c:
+        </p>
+      </div>
+      <br>
+      <fieldset>
+
+      <legend>Solver</legend>
+
+      <input type="text" id="a" placeholder="a"><br><br>
+      <input type="text" id="b" placeholder="b"><br><br>
+      <input type="text" id="c" placeholder="c"><br><br>
+      <button type="button" onclick="solveQuadratic()">Solve</button>
+
+      </fieldset>
+
+      <br><br>
+      <fieldset>
+          <legend>Results</legend>
+          <div id="results" class="results-box"></div>
+      </fieldset>
+
+    <br><br>
+  
+      <fieldset>
+  
+          <legend>
+              Finding the Expression
+          </legend>
+  
+          <p id="quadEHolder">
+              The expression starts as: ax<sup>2</sup> + bx + c = 0
+          </p>
+  
+      </fieldset>
+      <br>
+    <!-- Huh? Why is this here? I didn't put this here. -->
+    <div class="text">
+        <p id="copypasta">The Navy Seal copypasta, also sometimes known as Gorilla Warfare due to a misspelling of "guerriunfeasible accomplishments, such as having "over 300 confirmed kills" or being able to kill someone "in over seven hundred ways, and that's just with my bare hands". This copypasta is often reposted as a humorous overreaction to an insult and is thought to have originated on the military-themed imageboard OperatorChan, although the earliest known usage of the copypasta was on 4chan on November 11th, 2010.[4]
+        </p>
+
+    </div>
+<br>
+      
+    
+      <br><br>
+      <fieldset>
+  
+          <legend>
+              Roots & The Discriminant
+          </legend>
+  
+          <p>
+              To find the Discriminant(D), you need to use the values of a, b, and c. The formula to find the Discriminant is:<br> D = b<sup>2</sup> - 4ac
+          </p>
+  
+          <p>
+              Substituting in the values of a, b, and c:
+          </p>
+  
+          <p id="discriminant"></p>
+  
+          <p>
+              We can use this information to find out how many real roots(solutions) the equation has.
+          </p>
+  
+          <p>
+              If D > 0, 2 real roots;<br>
+              If D = 0, 1 real root;<br>
+              If D < 0, 0 real roots;<br><br>
+              So, based on the Discriminant value we have,
+          </p>
+  
+          <p id="findRealRoots"></p>
+          <p>(If the values of the roots shown below are the same, then the amount of roots above should say 1.)</p>
+  
+      </fieldset>
+  
+      <br>
+    <!-- Ok, ok. You got me. I just needed (or maybe wanted) some filler content to use this cool font I found -->
+    <div class="text">  
+    <p id="copypasta">The Navy Seal copypasta, also sometimes known as Gorilla Warfare due to a misspelling of "guerrilla warfare" in its contents, is an aggressive but humorouon the military-themed imageboard OperatorChan, although the earliest known usage of the copypasta was on 4chan on November 11th, 2010.[4]
+</p>
+    </div>
+      <fieldset>
+  
+          <legend>
+              The Quadratic Formula
+          </legend>
+  
+  
+  
+          <p>
+              The Quadratic Formula is
+          </p>
+  
+          <p>
+              x = [-b ± √D]/2a
+          </p>
+  
+          <p>
+              Root 1 = [-b + √D]/2a<span id="quadFormula1"></span>
+          </p>
+          OR
+          <p>
+              Root 2 = [-b - √D]/2a<span id="quadFormula2"></span>
+          </p>
+  
+  
+      </fieldset>
+  
+  </form>
+
+  <footer>
+    <p>&copy Atharv Sarathy. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
