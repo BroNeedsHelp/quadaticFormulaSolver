@@ -1,0 +1,147 @@
+body{
+  background-color: rgb(5, 26, 23);
+}
+
+header{
+  background-color: #00b34d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: 'Orbitron', sans-serif;
+  transition: 0.3s ease;
+}
+
+header:hover{
+  background-color: rgb(5, 50, 92);
+  transition: 0.3s ease;
+  padding: 35px;
+  border-radius: 70px;
+  border: 8px ridge rgb(215, 84, 40);
+  color: rgb(255, 102, 0);
+  font-size: 30px;
+}
+
+p{
+  color: white;
+  font-family: 'JetBrains Mono', monospace;
+  transition: 0.3s ease;
+  padding: 20px;
+}
+
+p:hover{
+  color: rgb(255, 89, 0);
+  padding: 25px;
+  transition: 0.3s ease;
+}
+
+.text{
+  background-color: #00b34d;
+  transition: 0.3s ease;
+  border-radius: 30px;
+  padding: 1px;
+  color: white;
+}
+
+.text:hover{
+  background-color: rgb(3, 24, 43);
+  transition: 0.3s ease;
+  padding: 5px;
+  border-radius: 70px;
+  border: 8px ridge rgb(215, 84, 40);
+  color: rgb(255, 102, 0);
+}
+
+fieldset{
+  border: 2px solid #00b34d;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  padding: 20px;
+}
+
+fieldset:hover{
+  transition: 0.3s ease;
+  border: 2px solid rgb(215, 84, 40);
+  box-shadow: 0 0 10px rgb(215, 84, 40);
+  padding: 25px;
+  background-color: rgb(3, 24, 43);
+}
+
+legend{
+  color: white;
+  font-family: 'Exile', system-ui;
+}
+
+#copypasta{
+  font-family: "Flow Circular", system-ui;
+  font-weight: bold;
+}
+
+#copypasta:hover{
+  font-family: "Flow Circular", system-ui;
+  font-weight: bold;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: 'Tilt Neon', system-ui;
+}
+
+input{
+  border: 2px solid #00b34d;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  padding: 20px;
+  font-family: 'JetBrains Mono', monospace;
+  color: white;
+  background-color: rgb(21, 9, 13);
+}
+
+input:hover{
+  transition: 0.3s ease;
+  border: 2px solid rgb(5, 50, 92);
+  box-shadow: 0 0 10px rgb(5, 50, 92);
+  padding: 25px;
+}
+
+button{
+  background-color: #00b34d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: 'Orbitron', sans-serif;
+  transition: 0.3s ease;
+}
+
+button:hover{
+  background-color: rgb(5, 50, 92);
+  transition: 0.3s ease;
+  padding: 25px;
+  border-radius: 70px;
+  border: 2px solid rgb(215, 84, 40);
+  color: rgb(215, 84, 40);
+}
+
+.results-box {
+  background-color: rgba(0, 179, 77, 0.1);
+  border: 2px solid #00b34d;
+  border-radius: 20px;
+  padding: 15px;
+  color: white;
+  font-family: 'JetBrains Mono', monospace;
+  transition: 0.3s ease;
+  white-space: pre-line;
+}
+
+.results-box:hover {
+  border-color: rgb(5, 50, 92);
+  box-shadow: 0 0 10px rgb(5, 50, 92);
+  padding: 20px;
+}
