@@ -1,42 +1,45 @@
-body{
+body {
   background-color: rgb(5, 26, 23);
 }
 
-header{
+header {
   background-color: #00b34d;
   color: white;
   text-align: center;
   padding: 20px;
   font-size: 20px;
+  font-weight: lighter;
   border-radius: 20px;
   font-family: 'Orbitron', sans-serif;
   transition: 0.3s ease;
 }
 
-header:hover{
+header:hover {
   background-color: rgb(5, 50, 92);
   transition: 0.3s ease;
   padding: 35px;
   border-radius: 70px;
+  font-weight: bolder;
   border: 8px ridge rgb(215, 84, 40);
   color: rgb(255, 102, 0);
   font-size: 30px;
 }
 
-p{
+p {
   color: white;
   font-family: 'JetBrains Mono', monospace;
   transition: 0.3s ease;
   padding: 20px;
 }
 
-p:hover{
+p:hover {
   color: rgb(255, 89, 0);
+  font-weight: bolder;
   padding: 25px;
   transition: 0.3s ease;
 }
 
-.text{
+.text {
   background-color: #00b34d;
   transition: 0.3s ease;
   border-radius: 30px;
@@ -44,46 +47,49 @@ p:hover{
   color: white;
 }
 
-.text:hover{
+.text:hover {
   background-color: rgb(3, 24, 43);
   transition: 0.3s ease;
   padding: 5px;
+  font-weight: bolder;
   border-radius: 70px;
   border: 8px ridge rgb(215, 84, 40);
   color: rgb(255, 102, 0);
 }
 
-fieldset{
+fieldset {
   border: 2px solid #00b34d;
   border-radius: 20px;
   transition: 0.3s ease;
   padding: 20px;
 }
 
-fieldset:hover{
+fieldset:hover {
   transition: 0.3s ease;
-  border: 2px solid rgb(215, 84, 40);
+  border: 5px solid rgb(215, 84, 40);
   box-shadow: 0 0 10px rgb(215, 84, 40);
-  padding: 25px;
+  border-radius: 50px;
+  font-weight: bolder;
+  padding: 40px;
   background-color: rgb(3, 24, 43);
 }
 
-legend{
+legend {
   color: white;
   font-family: 'Exile', system-ui;
 }
 
-#copypasta{
+.copypasta {
   font-family: "Flow Circular", system-ui;
   font-weight: bold;
 }
 
-#copypasta:hover{
+.copypasta:hover {
   font-family: "Flow Circular", system-ui;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
-footer{
+footer {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -92,7 +98,7 @@ footer{
   font-family: 'Tilt Neon', system-ui;
 }
 
-input{
+input {
   border: 2px solid #00b34d;
   border-radius: 20px;
   transition: 0.3s ease;
@@ -102,14 +108,15 @@ input{
   background-color: rgb(21, 9, 13);
 }
 
-input:hover{
+input:hover {
   transition: 0.3s ease;
   border: 2px solid rgb(5, 50, 92);
   box-shadow: 0 0 10px rgb(5, 50, 92);
+  font-weight: bolder;
   padding: 25px;
 }
 
-button{
+button {
   background-color: #00b34d;
   color: white;
   text-align: center;
@@ -120,12 +127,13 @@ button{
   transition: 0.3s ease;
 }
 
-button:hover{
+button:hover {
   background-color: rgb(5, 50, 92);
   transition: 0.3s ease;
   padding: 25px;
   border-radius: 70px;
-  border: 2px solid rgb(215, 84, 40);
+  border: 2.5px solid rgb(215, 84, 40);
+  font-weight: bolder;
   color: rgb(215, 84, 40);
 }
 
@@ -143,5 +151,6 @@ button:hover{
 .results-box:hover {
   border-color: rgb(5, 50, 92);
   box-shadow: 0 0 10px rgb(5, 50, 92);
+  font-weight: bolder;
   padding: 20px;
 }
